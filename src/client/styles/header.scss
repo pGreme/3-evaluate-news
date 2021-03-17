@@ -1,0 +1,11 @@
+$keyColor: rgba(254, 248, 229); // cornsilk
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+h1 {
+    font: 900 2.6rem "Open Sans" sans-serif;
+    text-decoration: underline overline $keyColor;
+}

@@ -1,0 +1,31 @@
+$keyColor: rgb(0, 85, 102); /* #005566; rgb(0, 85, 102); */
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    /*background: center / cover no-repeat url (../img/alexas_fotos-WoPxj4W58C0-unsplash.jpg) fixed;*/
+}
+
+main {
+    flex: 2;
+    justify-content: center;
+    text-align: center;
+    margin: 2em;
+    background: rgba(254, 248, 229, 0.6); //cornsilk;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+p { margin: 1em;}
+
+a:link, a:visited { 
+    color: white;
+    margin: 1em auto;
+}
+
+a:hover {color: $keyColor; }
