@@ -2,7 +2,7 @@
 
 Project 4 at [Udacity](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011) Front End Web Developer Nanodegree program.
 
-Dieses Projekt zielt darauf ab, ein Web-Tool zu erstellen, mit dem Benutzer die Verarbeitung natürlicher Sprache (Natural Language Processing, NLP) für Artikel oder Blogs ausführen können, die auf anderen Websites zu finden sind. Wenn ein Benutzer eine URL eines Artikels übermittelt, gibt die Webseite die Stimmungsanalyse zurück, die von der [Meaningcloud-API] (https://www.meaningcloud.com/products/sentiment-analysis) basierend auf dem Inhalt des Artikels zurückgegeben wurde.
+The aim of this project is to create a web tool that will allow users to perform natural language processing (NLP) on articles or blogs found on other websites. When a user submits a URL of an article, the website returns the sentiment analysis returned by the [Meaningcloud API] (https://www.meaningcloud.com/products/sentiment-analysis) based on the content of the article.
 
 ## Build Tools
 * HTML
@@ -16,14 +16,14 @@ Dieses Projekt zielt darauf ab, ein Web-Tool zu erstellen, mit dem Benutzer die 
 * Workbox
 
 ## Installation
-Stelle sicher, dass npm installiert ist (über das Terminal überprüfen).
+To improve if npm is installed (via Terminal).
 node -v
 npm -v
 
-1. Gehe zum Projekt Ordner und entpacke hier das Projekt
-cd <Ordner> 
+1. Go to the projekt folder and extract the project
+cd <folder> 
 
-2. Installiere Loaders und Plugins
+2. Install the loaders and plugins
 npm i -D @babel/core @babel/preset-env babel-loader
 npm i -D style-loader node-sass css-loader sass-loader
 npm i -D clean-webpack-plugin
@@ -31,15 +31,15 @@ npm i -D html-webpack-plugin
 npm i -D mini-css-extract-plugin
 npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
 
-3. Melde dich für eine API Key bei meaningcloud.com an
-	1. Installiere die dotenv package
+3. Log in for the API Key at meaningcloud.com 
+	1. Install dotenv package
 	npm install dotenv
-	2. Erstelle eine .env Datei im Rootverzeichnis und setze deinen Key ein:
+	2. Build a .env file in the root directory and fill in your Key:
 	API_KEY=**************************
 
-4. Starte das Projekt
+4. Start the projekt
 npm run build-prod` | Build project
 npm start | Run project
 
-5. Öffne den Browser auf http://localhost:8060/
+5. Open the browser on http://localhost:8060/
 
